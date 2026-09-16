@@ -4,7 +4,7 @@
 
 Append-only, hash-linked evidence for claims about autonomous-agent actions.
 
-This is an independent SHPBL research candidate intended for possible future submission to the Tenable CyberAgents Exchange. It has **not** been submitted to, approved by, or endorsed by Tenable.
+This repository is the behavior specification only. A separate clean-room MIT implementation written from this specification ([shpbl-action-ledger](https://github.com/SweetKenneth/shpbl-action-ledger)) was submitted to the Tenable CyberAgents Exchange in pull request [#165](https://github.com/tenable/cyberagents-exchange/pull/165), which was merged by the maintainers and is listed in the community catalogue: [listing](https://github.com/tenable/cyberagents-exchange/blob/main/mcp-servers/shpbl-action-ledger.md). A merged catalogue entry is a maintainer merge — it is not certification, endorsement, or affiliation, and no Tenable endorsement of SHPBL is claimed.
 
 ## Read the contract
 
@@ -24,14 +24,14 @@ The contract is designed to become an independently testable defensive tool rath
 ## Current stage
 
 ```text
-SPECIFICATION RELEASED → IMPLEMENTATION NOT AUTHORIZED → NOT SUBMITTED → NOT APPROVED
+SPECIFICATION RELEASED → CLEAN-ROOM IMPLEMENTATION AUTHORIZED AND PUBLISHED → SUBMITTED (PR #165) → MERGED AND LISTED
 ```
 
-A separate human approval is required before fresh implementation. A later exact-file IP-surface review and license decision will apply to those new implementation bytes.
+Implementation was approved and written clean-room from this specification; no harvested SHPBL or CMPSBL body was used. The implementation bytes carry their own MIT grant in [shpbl-action-ledger](https://github.com/SweetKenneth/shpbl-action-ledger).
 
 ## Review
 
-Open an issue with a concrete ambiguity, counterexample, threat-model gap, or externally testable property. Do not report this repository as a working capability or a Tenable listing.
+Open an issue with a concrete ambiguity, counterexample, threat-model gap, or externally testable property. Do not report this repository as a working capability. The working capability and the catalogue listing belong to the separate implementation repository.
 
 ## Origin
 
